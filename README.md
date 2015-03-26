@@ -15,7 +15,7 @@ Tx hash: 151cca1ea8d82208da1a2b7508adbd8395b75f07e2d684d4bd245488d28d4950
 ### Docker
 
 ```
-$ docker build . -t testnet
+$ docker build -t testnet .
 ...
 
 $ docker run testnet python -m bitcoin_testnet.haskoin_faucet 2MwXndSNLYbD9smwjmuMDFdQMW3ccGN9dLx
