@@ -57,7 +57,7 @@ def parse_tx_hash(html):
     if type(node) != NavigableString:
         return
 
-    return unicode(node)
+    return str(node)
 
 
 if __name__ == '__main__':
